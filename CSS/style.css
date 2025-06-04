@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000103;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #515052;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+
+.logo a{
+    color: #FFFFFA;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-list a{
+    color: #FFFFFA;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-list a:hover{
+    color: #FF312E;
+        transition: 0.5s;
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FF312E;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    background-color: #FFFFFA;
+    color: black;
+    transition: 0.5s;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.sec1-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:20px;
+    padding-left: 100px;
+    color:#FFFFFA;
+}
+
+.sec1-left h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+.sec1-left p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.sec1-left button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FF312E;
+    color:#FFFFFA;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sec1-left button:hover{
+    background-color: #FFFFFA;
+    color:#000103;
+    transition: 0.5s;
+}
+.sec1-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-right img{
+    position: relative;
+    top: 20px;
+    z-index: 10;
+}
+.circle{
+    position: absolute;
+    top: 100px;
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    background-color: #FF312E;
+    z-index: 0;
+}
+.sub-circle{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color:#FFFFFA;
+    z-index: 0; 
+}
