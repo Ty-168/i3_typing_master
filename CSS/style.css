@@ -35,7 +35,7 @@ body{
 
 .nav-list a:hover{
     color: #FF312E;
-        transition: 0.5s;
+    transition: 0.5s;
 }
 
 
@@ -92,16 +92,20 @@ body{
     font-size: 20px;
     font-weight: lighter;
 }
-.sec1-left button{
+.sec1-left a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 50px;
     border-radius: 10px;
     background-color: #FF312E;
     color:#FFFFFA;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
+    text-decoration: none;
 }
-.sec1-left button:hover{
+.sec1-left a:hover{
     background-color: #FFFFFA;
     color:#000103;
     transition: 0.5s;
