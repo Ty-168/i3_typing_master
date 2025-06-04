@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="CSS/TypingPage.css">
+</head>
+<body>
+    <a href="FirstPage.html" class="back-btn">Back to Home</a>
+    <div class="typing-container">
+        <h1>Typing Test</h1>
+        <div class="test-box">
+            <div class="test-text" id="testText">
+                Typing Master Test
+            </div>
+            <textarea id="userInput" class="typing-input" placeholder="Start typing here..." rows="3"></textarea>
+            <button class="btn" id="restartBtn">Restart</button>
+        </div>
+    </div>
+    <script>
+        const restartBtn = document.getElementById('restartBtn');
+        function resetTest() {
+            userInput.value = '';
+            clearInterval(interval);
+        }
+        restartBtn.addEventListener('click', resetTest);
+
+    </script>
+</body>
+</html>
